@@ -84,7 +84,7 @@ const Index = () => {
     <div id="top" className="min-h-screen bg-cream font-body text-graphite">
       {/* NAV */}
       <header className="fixed inset-x-0 top-0 z-50 border-b border-graphite/10 bg-cream/80 backdrop-blur-md">
-        <div className="container flex h-20 items-center justify-between">
+        <div className="container flex h-20 items-center justify-between bg-[#ffffff] rounded-none">
           <Logo />
           <nav className="hidden items-center gap-8 md:flex">
             {NAV.map((n) => (
@@ -161,7 +161,7 @@ const Index = () => {
       </section>
 
       {/* MARQUEE */}
-      <div className="overflow-hidden border-y border-graphite/10 bg-graphite py-4">
+      <div className="overflow-hidden border-y border-graphite/10 py-4 bg-zinc-600">
         <div className="flex w-max animate-marquee gap-12 whitespace-nowrap">
           {[...MARQUEE, ...MARQUEE, ...MARQUEE, ...MARQUEE].map((m, i) => (
             <span key={i} className="font-display text-xl font-medium uppercase tracking-widest text-cream/70">
@@ -305,7 +305,7 @@ const Index = () => {
       </section>
 
       {/* NEWSLETTER */}
-      <section className="border-y border-graphite/10 bg-cream py-16">
+      <section className="border-y border-graphite/10 py-16 bg-[#ffffff]">
         <div className="container flex flex-col items-center gap-6 text-center md:flex-row md:justify-between md:text-left">
           <div>
             <h3 className="font-display text-3xl font-bold uppercase text-graphite">Подписка на новости</h3>
