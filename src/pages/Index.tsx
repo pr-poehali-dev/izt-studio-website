@@ -39,7 +39,7 @@ const PROJECTS = [
     title: 'Команда 13',
     tag: 'Dark Fantasy',
     desc: 'Мрачное взрослое фэнтези: графит, сталь, дым и красное пламя. История для тех, кто любит по-настоящему.',
-    img: 'https://cdn.poehali.dev/projects/a1a37a13-d297-4017-8db4-89e2473f24c5/bucket/556cc446-ede7-4b2b-aa08-a450e7aa3ce0.png',
+    img: 'https://cdn.poehali.dev/projects/bdfb35eb-e88b-417d-a372-809f9fe38430/bucket/a125122f-dcb0-4ffe-ba39-8fe33866d144.png',
     from: 'from-[#1c1c1e]',
     to: 'to-[#8a1a12]',
     accent: '#c0392b',
@@ -47,9 +47,11 @@ const PROJECTS = [
 ];
 
 const GALLERY = [
-  'https://cdn.poehali.dev/projects/a1a37a13-d297-4017-8db4-89e2473f24c5/bucket/b88ae17b-4c74-4198-bde5-d3f9c12aa358.png',
+  'https://cdn.poehali.dev/projects/bdfb35eb-e88b-417d-a372-809f9fe38430/bucket/438701eb-54ef-42fe-9cb1-44f504f26158.png',
   'https://cdn.poehali.dev/projects/a1a37a13-d297-4017-8db4-89e2473f24c5/bucket/784862de-99b4-4879-b5ca-5d9925e7a75f.png',
   'https://cdn.poehali.dev/projects/a1a37a13-d297-4017-8db4-89e2473f24c5/bucket/24406593-e42f-41dc-b11b-39001566c539.png',
+  'https://cdn.poehali.dev/projects/bdfb35eb-e88b-417d-a372-809f9fe38430/bucket/a125122f-dcb0-4ffe-ba39-8fe33866d144.png',
+  'https://cdn.poehali.dev/projects/a1a37a13-d297-4017-8db4-89e2473f24c5/bucket/b88ae17b-4c74-4198-bde5-d3f9c12aa358.png',
   'https://cdn.poehali.dev/projects/a1a37a13-d297-4017-8db4-89e2473f24c5/bucket/556cc446-ede7-4b2b-aa08-a450e7aa3ce0.png',
 ];
 
