@@ -96,6 +96,29 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
   }
+}
+
+@layer utilities {
+  .font-feature-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1.5px #3a3d42;
+  color: transparent;
+}
+
+.noise-bg {
+  background-image: radial-gradient(
+    rgba(58, 61, 66, 0.04) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
 }
