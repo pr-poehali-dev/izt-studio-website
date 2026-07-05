@@ -218,7 +218,7 @@ const Index = () => {
       <section id="video" className="bg-graphite py-24 md:py-32">
         <div className="container">
           <p className="mb-4 font-display text-sm font-medium uppercase tracking-[0.4em] text-orange">Showreel 2026</p>
-          <h2 className="mb-12 max-w-3xl font-display uppercase leading-none text-cream md:text-7xl text-5xl font-medium">Тизеры наших мультфильмов.</h2>
+          <h2 className="mb-12 max-w-3xl font-display uppercase leading-none text-cream md:text-7xl text-5xl font-medium">ПРЕВЬЮ МУЛЬТФИЛЬМОВ</h2>
           <div className="group relative aspect-video overflow-hidden rounded-3xl">
             <img src={HERO_IMG} alt="Showreel" className="h-full w-full object-cover opacity-80" />
             <div className="absolute inset-0 flex items-center justify-center bg-graphite/40">
