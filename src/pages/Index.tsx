@@ -196,9 +196,7 @@ const Index = () => {
                   <div className={`absolute inset-0 bg-gradient-to-tr ${p.from} ${p.to} opacity-20`} />
                 </div>
                 <div className={`flex flex-col justify-center bg-gradient-to-br ${p.from} ${p.to} p-10 md:p-14`}>
-                  <span className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-white/70">
-                    {String(i + 1).padStart(2, '0')} · {p.tag}
-                  </span>
+                  <span className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-white/70">03 . ТЁМНОЕ ФЭНТЕЗИ</span>
                   <h3 className="font-display text-4xl font-bold text-white md:text-6xl">{p.title}</h3>
                   <p className="mt-5 max-w-md text-white/80">{p.desc}</p>
                   <button
