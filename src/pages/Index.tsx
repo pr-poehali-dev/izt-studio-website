@@ -126,7 +126,7 @@ const Index = () => {
         </div>
 
         <div className="container relative z-10">
-          <p className="mb-6 animate-fade-in font-display text-sm font-medium uppercase tracking-[0.4em] text-orange">
+          <p className="mb-6 animate-fade-in font-display font-medium uppercase tracking-[0.4em] text-lg text-orange-600">
             Авторская анимационная студия
           </p>
           <h1 className="max-w-4xl animate-fade-up font-display text-6xl font-bold leading-[0.95] text-graphite md:text-8xl">
@@ -136,7 +136,7 @@ const Index = () => {
             <br />
             <span className="text-azure">пересматривать</span>
           </h1>
-          <p className="mt-8 max-w-xl animate-fade-up text-lg text-graphite/70 [animation-delay:150ms]">
+          <p className="mt-8 max-w-xl animate-fade-up text-lg [animation-delay:150ms] text-zinc-600">
             Каждый проект — со своим характером, настроением и голосом. От абсурдного космоса до тёплой сказки и тёмного фэнтези.
           </p>
           <div className="mt-10 flex animate-fade-up flex-wrap gap-4 [animation-delay:300ms]">
