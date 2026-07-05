@@ -68,8 +68,12 @@ const LOGO_IMG =
   'https://cdn.poehali.dev/projects/bdfb35eb-e88b-417d-a372-809f9fe38430/bucket/b694dd2b-95fd-4e5a-905a-547b17470c4e.png';
 
 const Logo = () => (
-  <a href="#top" className="flex items-center">
-    <img src={LOGO_IMG} alt="ИЗТ Студия" className="h-12 w-auto object-contain" />
+  <a href="#top" className="block h-11 w-44 overflow-hidden md:h-14 md:w-56">
+    <img
+      src={LOGO_IMG}
+      alt="ИЗТ Студия"
+      className="h-full w-full scale-125 object-cover object-[50%_47%]"
+    />
   </a>
 );
 
@@ -320,8 +324,12 @@ const Index = () => {
       <footer id="contacts" className="bg-graphite py-20 text-cream">
         <div className="container grid gap-12 md:grid-cols-4">
           <div className="md:col-span-2">
-            <div className="inline-block rounded-2xl bg-cream p-3">
-              <img src={LOGO_IMG} alt="ИЗТ Студия" className="h-10 w-auto object-contain" />
+            <div className="inline-block h-14 w-48 overflow-hidden rounded-2xl bg-cream p-2">
+              <img
+                src={LOGO_IMG}
+                alt="ИЗТ Студия"
+                className="h-full w-full scale-125 object-cover object-[50%_47%]"
+              />
             </div>
             <p className="mt-5 max-w-sm text-cream/60">
               Авторская анимационная студия. Придумываем, рисуем и оживляем миры.
