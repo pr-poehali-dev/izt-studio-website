@@ -64,12 +64,12 @@ const MARQUEE = [
   'АВТОРСКИЕ МИРЫ',
 ];
 
+const LOGO_IMG =
+  'https://cdn.poehali.dev/projects/bdfb35eb-e88b-417d-a372-809f9fe38430/bucket/b694dd2b-95fd-4e5a-905a-547b17470c4e.png';
+
 const Logo = () => (
-  <a href="#top" className="flex items-baseline gap-1 font-display text-3xl font-bold tracking-tight">
-    <span className="text-graphite">И</span>
-    <span className="text-orange">З</span>
-    <span className="text-azure">Т</span>
-    <span className="ml-1 text-sm font-medium tracking-widest text-graphite/60">СТУДИЯ</span>
+  <a href="#top" className="flex items-center">
+    <img src={LOGO_IMG} alt="ИЗТ Студия" className="h-12 w-auto object-contain" />
   </a>
 );
 
@@ -320,11 +320,8 @@ const Index = () => {
       <footer id="contacts" className="bg-graphite py-20 text-cream">
         <div className="container grid gap-12 md:grid-cols-4">
           <div className="md:col-span-2">
-            <div className="flex items-baseline gap-1 font-display text-4xl font-bold">
-              <span>И</span>
-              <span className="text-orange">З</span>
-              <span className="text-azure">Т</span>
-              <span className="ml-1 text-base font-medium tracking-widest text-cream/60">СТУДИЯ</span>
+            <div className="inline-block rounded-2xl bg-cream p-3">
+              <img src={LOGO_IMG} alt="ИЗТ Студия" className="h-10 w-auto object-contain" />
             </div>
             <p className="mt-5 max-w-sm text-cream/60">
               Авторская анимационная студия. Придумываем, рисуем и оживляем миры.
