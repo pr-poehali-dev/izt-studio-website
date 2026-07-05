@@ -72,7 +72,7 @@ const Logo = () => (
     <img
       src={LOGO_IMG}
       alt="ИЗТ Студия"
-      className="h-full w-full scale-125 py-0 my-0 object-cover mx-0 px-[37px] rounded-0"
+      className="h-full w-full scale-125 py-0 my-0 object-cover mx-0 px-[45px] rounded-[0.25rem]"
     />
   </a>
 );
@@ -328,7 +328,7 @@ const Index = () => {
               <img
                 src={LOGO_IMG}
                 alt="ИЗТ Студия"
-                className="h-full w-full scale-125 mx-0 rounded-none object-cover py-0 my-0 px-[15px]"
+                className="h-full w-full scale-125 mx-0 rounded-none object-cover px-[15px] py-0 my-0"
               />
             </div>
             <p className="mt-5 max-w-sm text-cream/60">
