@@ -72,7 +72,7 @@ const Logo = () => (
     <img
       src={LOGO_IMG}
       alt="ИЗТ Студия"
-      className="h-full w-full scale-125 object-cover object-[50%_47%]"
+      className="h-full w-full scale-125 object-cover object-[50%_47%] px-0 py-0 mx-0 my-0"
     />
   </a>
 );
