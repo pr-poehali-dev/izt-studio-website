@@ -328,7 +328,7 @@ const Index = () => {
               <img
                 src={LOGO_IMG}
                 alt="ИЗТ Студия"
-                className="h-full w-full scale-125 mx-0 rounded-none object-cover px-[15px] py-0 my-0"
+                className="h-full w-full scale-125 my-0 px-[25px] rounded-none py-0 mx-0 object-cover"
               />
             </div>
             <p className="mt-5 max-w-sm text-cream/60">
