@@ -72,7 +72,7 @@ const Logo = () => (
     <img
       src={LOGO_IMG}
       alt="ИЗТ Студия"
-      className="h-full w-full scale-125 py-0 my-0 object-cover mx-0 px-[45px] rounded-[0.25rem]"
+      className="h-full w-full scale-125 object-cover object-[50%_47%]"
     />
   </a>
 );
@@ -84,7 +84,7 @@ const Index = () => {
     <div id="top" className="min-h-screen bg-cream font-body text-graphite">
       {/* NAV */}
       <header className="fixed inset-x-0 top-0 z-50 border-b border-graphite/10 bg-cream/80 backdrop-blur-md">
-        <div className="container flex h-20 items-center justify-between bg-[#ffffff] rounded-none">
+        <div className="container flex h-20 items-center justify-between">
           <Logo />
           <nav className="hidden items-center gap-8 md:flex">
             {NAV.map((n) => (
@@ -126,7 +126,7 @@ const Index = () => {
         </div>
 
         <div className="container relative z-10">
-          <p className="mb-6 animate-fade-in font-display font-medium uppercase tracking-[0.4em] text-lg text-orange-600">
+          <p className="mb-6 animate-fade-in font-display text-sm font-medium uppercase tracking-[0.4em] text-orange">
             Авторская анимационная студия
           </p>
           <h1 className="max-w-4xl animate-fade-up font-display text-6xl font-bold leading-[0.95] text-graphite md:text-8xl">
@@ -136,7 +136,7 @@ const Index = () => {
             <br />
             <span className="text-azure">пересматривать</span>
           </h1>
-          <p className="mt-8 max-w-xl animate-fade-up text-lg [animation-delay:150ms] text-zinc-600">
+          <p className="mt-8 max-w-xl animate-fade-up text-lg text-graphite/70 [animation-delay:150ms]">
             Каждый проект — со своим характером, настроением и голосом. От абсурдного космоса до тёплой сказки и тёмного фэнтези.
           </p>
           <div className="mt-10 flex animate-fade-up flex-wrap gap-4 [animation-delay:300ms]">
@@ -161,7 +161,7 @@ const Index = () => {
       </section>
 
       {/* MARQUEE */}
-      <div className="overflow-hidden border-y border-graphite/10 py-4 bg-zinc-600">
+      <div className="overflow-hidden border-y border-graphite/10 bg-graphite py-4">
         <div className="flex w-max animate-marquee gap-12 whitespace-nowrap">
           {[...MARQUEE, ...MARQUEE, ...MARQUEE, ...MARQUEE].map((m, i) => (
             <span key={i} className="font-display text-xl font-medium uppercase tracking-widest text-cream/70">
@@ -196,7 +196,9 @@ const Index = () => {
                   <div className={`absolute inset-0 bg-gradient-to-tr ${p.from} ${p.to} opacity-20`} />
                 </div>
                 <div className={`flex flex-col justify-center bg-gradient-to-br ${p.from} ${p.to} p-10 md:p-14`}>
-                  <span className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-white/70">03 . ТЁМНОЕ ФЭНТЕЗИ</span>
+                  <span className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-white/70">
+                    {String(i + 1).padStart(2, '0')} · {p.tag}
+                  </span>
                   <h3 className="font-display text-4xl font-bold text-white md:text-6xl">{p.title}</h3>
                   <p className="mt-5 max-w-md text-white/80">{p.desc}</p>
                   <button
@@ -216,7 +218,9 @@ const Index = () => {
       <section id="video" className="bg-graphite py-24 md:py-32">
         <div className="container">
           <p className="mb-4 font-display text-sm font-medium uppercase tracking-[0.4em] text-orange">Showreel 2026</p>
-          <h2 className="mb-12 max-w-3xl font-display uppercase leading-none text-cream md:text-7xl text-5xl font-medium">ПРЕВЬЮ МУЛЬТФИЛЬМОВ</h2>
+          <h2 className="mb-12 max-w-3xl font-display text-5xl font-bold uppercase leading-none text-cream md:text-7xl">
+            Наша анимация в движении
+          </h2>
           <div className="group relative aspect-video overflow-hidden rounded-3xl">
             <img src={HERO_IMG} alt="Showreel" className="h-full w-full object-cover opacity-80" />
             <div className="absolute inset-0 flex items-center justify-center bg-graphite/40">
@@ -303,7 +307,7 @@ const Index = () => {
       </section>
 
       {/* NEWSLETTER */}
-      <section className="border-y border-graphite/10 py-16 bg-[#ffffff]">
+      <section className="border-y border-graphite/10 bg-cream py-16">
         <div className="container flex flex-col items-center gap-6 text-center md:flex-row md:justify-between md:text-left">
           <div>
             <h3 className="font-display text-3xl font-bold uppercase text-graphite">Подписка на новости</h3>
@@ -324,7 +328,7 @@ const Index = () => {
               <img
                 src={LOGO_IMG}
                 alt="ИЗТ Студия"
-                className="h-full w-full scale-125 my-0 px-[25px] rounded-none py-0 mx-0 object-cover"
+                className="h-full w-full scale-125 object-cover object-[50%_47%]"
               />
             </div>
             <p className="mt-5 max-w-sm text-cream/60">
